@@ -1,4 +1,4 @@
-package com.javatpoint.beans;
+package com.anwar.beans;
 
 public class BookBean {
 private String callno,name,author,publisher;
