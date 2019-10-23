@@ -1,4 +1,4 @@
-package com.javatpoint.servlets;
+package com.anwar.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.javatpoint.beans.BookBean;
-import com.javatpoint.dao.BookDao;
+import com.anwar.beans.BookBean;
+import com.anwar.dao.BookDao;
 @WebServlet("/AddBook")
 public class AddBook extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
