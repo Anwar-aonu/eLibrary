@@ -1,4 +1,4 @@
-package com.javatpoint.beans;
+package com.anwar.beans;
 
 public class LibrarianBean {
 private int id;
