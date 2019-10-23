@@ -1,4 +1,4 @@
-package com.javatpoint.beans;
+package com.anwar.beans;
 
 import java.sql.Date;
 
