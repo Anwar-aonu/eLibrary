@@ -1,4 +1,4 @@
-package com.javatpoint.servlets;
+package com.anwar.servlets;
 
 
 import java.io.IOException;
@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.javatpoint.beans.BookBean;
-import com.javatpoint.beans.LibrarianBean;
-import com.javatpoint.dao.BookDao;
-import com.javatpoint.dao.LibrarianDao;
+import com.anwar.beans.BookBean;
+import com.anwar.beans.LibrarianBean;
+import com.anwar.dao.BookDao;
+import com.anwar.dao.LibrarianDao;
 @WebServlet("/ViewBook")
 public class ViewBook extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
