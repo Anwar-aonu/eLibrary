@@ -1,4 +1,4 @@
-package com.javatpoint.dao;
+package com.anwar.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,9 +7,9 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.javatpoint.beans.BookBean;
-import com.javatpoint.beans.IssueBookBean;
-import com.javatpoint.beans.LibrarianBean;
+import com.anwar.beans.BookBean;
+import com.anwar.beans.IssueBookBean;
+import com.anwar.beans.LibrarianBean;
 
 public class BookDao {
 
