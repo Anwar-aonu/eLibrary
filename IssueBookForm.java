@@ -1,4 +1,4 @@
-package com.javatpoint.servlets;
+package com.anwar.servlets;
 
 
 import java.io.IOException;
