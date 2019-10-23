@@ -1,4 +1,4 @@
-package com.javatpoint.servlets;
+package com.anwar.servlets;
 
 
 import java.io.IOException;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.javatpoint.beans.IssueBookBean;
-import com.javatpoint.dao.BookDao;
+import com.anwar.beans.IssueBookBean;
+import com.anwar.dao.BookDao;
 @WebServlet("/ReturnBook")
 public class ReturnBook extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
